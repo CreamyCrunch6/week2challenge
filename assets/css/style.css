@@ -158,7 +158,6 @@ footer nav ul li a:hover {
       padding: 15px;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1.5fr, repeat(3, 1fr);
-      grid-
       color:  #e6cdf0d3;
       font-size: 10;
     }
