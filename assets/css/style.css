@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header */
+header {
+    padding: 20px 35px;
+    background-color: #c78579;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #e6cdf0d3;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: #e6cdf0d3;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/*Hero*/
+
+.hero {
+    background-image: url("../images/Red-Rock.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero-cta {
+  width: 100%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 12px;
+}
+
+.hero-cta h2{
+  font-style: italic;
+  font-size: 24px;
+  color: #ded1e2;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #c78579;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e6cdf0d3;
+}
+
+footer nav {
+    margin: 7px 0;
+}
+
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+footer nav ul li a:hover {
+  background: #c78579;
+  color: #b9b6b5;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/* about me */
+
+.section-title {
+    font-size: 48px;
+    color: #c78579;
+    border-right: 3px solid;
+    text-align: left;
+    margin: 5px auto 35px 5px;
+    width: 20%;
+  }
+  
+  .primary-border {
+    border-color: #e6cdf0d3;
+  }
+
+  .intro p {
+    line-height: 1.7;
+    color: #c78579;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: left;
+  }
